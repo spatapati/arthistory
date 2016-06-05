@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="generator" content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39" />
+  <title>Art History Flashcards</title>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="jquery-2.1.1.min.js"></script>
+  <script src="old.js"></script>
+  <script src="new.js"></script>
+  <script src="script.min.js"></script>
+  <script src="master.js"></script>
+</head>
+
+<body>
+     <center><h2 class="thin">Exploring Art History</h2></center>
+  <table>
+    <tr>
+<!--        style="width: 50%"-->
+        <center>
+            <td>
+                <center><div class="button" style="width: 100%" id="old"><bold>Pre-Renaissance Cards</bold></div></center>
+            </td>
+            <td>
+                <center><div class="button pad-me" style="width: 100%"><bold><a href="index.html">All Cards</a></bold></div>
+            </td>
+            <td>
+                <center><div class="button" style="width: 100%" id="new"><bold>Renaissance/Post-Renaissance Cards</bold></div></center>
+            </td>
+        </center>
+      
+    </tr>
+    <tr style="text-align:left">
+      <td></td>
+      <td id="counter"></td>
+    </tr>
+    <tr>
+      <td style="text-align:right">
+        <div id="random" class="button" style="width: 100%">Shuffle</div>
+      </td>
+      <td style="text-align:center"><bold>Click the arrows to switch cards, and click the card to flip it.</bold></td>
+      <td>
+        <div id="unshuffle" class="button" style="width: 100%">Un-shuffle</div>
+      </td>
+    </tr>
+    <tr class="tall">
+      <td id="left" class="box">
+          <a class="btn-floating btn-large green"><i class="material-icons">fast_rewind</i></a>
+      </td>
+      <td class="box" id="center">
+        <div id="card"></div>
+      </td>
+      <td id="right" class="box">
+          <a class="btn-floating btn-large green"><i class="material-icons">fast_forward</i></a>
+      </td>
+    </tr>
+  </table>
+    <center><div class="btn-large white"><a href="history.html">More Information On Renaissance Techniques</a></div></center>
+ 
+  <!-- This is for prefetching. It loads all the images after the rest of the page is done loading but before you actually
+                switch cards so that you don't have to load them then. -->
+  <div id="pre" class="prefetch"></div>
+</body>
+
+</html>

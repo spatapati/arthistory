@@ -1,0 +1,99 @@
+#random {
+	float: right;
+}
+
+td{
+	padding-left: 5px;
+	padding-right: -5px;
+}
+.tall {
+	height: 700px;
+	width: 300px;
+}
+table {
+	width: 100%;
+	font-family: Century Gothic, sans-serif;
+}
+#left {
+	text-align: right;
+}
+#center {
+	border-radius: 2px;
+	border-style: solid;
+	border-color: #89e4af;
+	width: 80%;
+	text-align: center;
+	height: 450px;
+	background-image: url("centre.jpeg");
+}
+#card{
+	background-color: rgb(222, 250, 251);
+	border-radius: 5px;
+	display: inline-block;
+	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img {
+	max-width: 100%;
+}
+#counter {
+	text-align: center;
+}
+
+#center, #left, #right {
+	-webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.pad-me{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button {
+	border-style: solid;
+	border-color: #89e4af;
+    border-radius:2px;
+    color:#000000;
+    width:90px;
+    text-align:center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+}
+.color-me{
+    color: mediumaquamarine;
+}
+.hover{
+    background-image: url("butter.jpg");
+}
+
+.down {
+    background-image: url("butter.jpg");
+}
+.prefetch{
+	visibility: hidden;
+	height: 1px;
+	width: 1px;
+	display: inline;
+}
+#information {
+	width: 50%;
+	display: none;
+}
+#hider {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#forever {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+}
